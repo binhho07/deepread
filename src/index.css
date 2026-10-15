@@ -1,0 +1,48 @@
+:root {
+  color-scheme: light;
+  font-family: 'Iowan Old Style', Palatino, 'Palatino Linotype', Georgia, serif;
+  background: #f4f1ea;
+  color: #1c1915;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.scaffold {
+  max-width: 36rem;
+  margin: 4rem auto;
+  padding: 0 1.5rem;
+}
+
+h1 {
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.25rem;
+}
+
+.status {
+  margin-top: 1.5rem;
+  padding: 0.75rem 1rem;
+  background: #fff;
+  border: 1px solid #e4dfd4;
+  border-radius: 8px;
+}
+
+.status.ok {
+  border-color: #b7d4c2;
+}
+
+.status.bad {
+  border-color: #e4b4b4;
+  color: #8a2a2a;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.9em;
+}
